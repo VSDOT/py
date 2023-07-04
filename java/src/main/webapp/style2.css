@@ -1,0 +1,187 @@
+/*------------------ it's a container3 section -------------------------------------------------*/
+.header3 h4
+{
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1200px;
+}
+.header3 p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+.header3 img
+{
+    height: 40%;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.para    
+{
+    display: flex;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 650px;
+    margin-top: -470px;
+}
+ .skill_bar1
+ {
+    margin-left: 650px;
+    border-radius: 20px;
+    background-color: white;
+    height: 25px;
+    width: 600px;
+ }
+ .skill_per1
+{
+    border-radius: 20px;
+    background-color: red;
+    height: 25px;
+    width: 100px; 
+}
+.skill_per1 p 
+{
+    font-size: 13px;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.skill_bar2
+{
+    margin-top: 20px;
+   margin-left: 650px;
+   border-radius: 20px;
+   background-color: white;
+   height: 25px;
+   width: 600px;
+}
+.skill_per2
+{
+   border-radius: 20px;
+   background-color: red;
+   height: 25px;
+   width: 300px; 
+}
+.skill_per2 p
+{
+    font-size: 13px;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.skill_bar3
+{
+    margin-top: 20px;
+   margin-left: 650px;
+   border-radius: 20px;
+   background-color: white;
+   height: 25px;
+   width: 600px;
+}
+.skill_per3
+{
+   border-radius: 20px;
+   background-color: red;
+   height: 25px;
+   width: 600px; 
+}
+.skill_per3 p
+{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.skill_bar4
+{
+    margin-top: 20px;
+   margin-left: 650px;
+   border-radius: 20px;
+   background-color: white;
+   height: 25px;
+   width: 600px;
+}
+.skill_per4
+{
+   border-radius: 20px;
+   background-color: red;
+   height: 25px;
+   width: 400px; 
+}
+.skill_per4 p
+{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.skill_bar5
+{
+    margin-top: 20px;
+   margin-left: 650px;
+   border-radius: 20px;
+   background-color: white;
+   height: 25px;
+   width: 600px;
+}
+.skill_per5
+{
+   border-radius: 20px;
+   background-color: red;
+   height: 25px;
+   width: 300px; 
+}
+.skill_per5 p
+{
+    font-size: 13px;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.skill_bar6
+{
+    margin-top: 20px;
+   margin-left: 650px;
+   border-radius: 20px;
+   background-color: white;
+   height: 25px;
+   width: 600px;
+}
+.skill_per6
+{
+   border-radius: 20px;
+   background-color: red;
+   height: 25px;
+   width: 100px; 
+}
+.skill_per6 p
+{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.skill_bar7
+{
+    margin-top: 20px;
+   margin-left: 650px;
+   border-radius: 20px;
+   background-color: white;
+   height: 25px;
+   width: 600px;
+}
+.skill_per7
+{
+   border-radius: 20px;
+   background-color: red;
+   height: 25px;
+   width: 300px; 
+}
+.skill_per7 p 
+{
+    font-size: 15px;
+    margin-left:10px ;
+}
+.p
+{
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 30px;
+    margin-left: 650px;
+}
