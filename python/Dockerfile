@@ -1,15 +1,13 @@
-FROM python:3.6
-
-COPY requirements.txt requirements.txt
-
-RUN pip3 install -r requirements.txt
-
-COPY   . /Templates
+FROM python:3.8-alpine
 
 WORKDIR /app
 
-EXPOSE 8080/tcp
+COPY . .
 
-VOLUME my_data
+RUN pip install Flask
 
-CMD ["python", "app.py"]
+EXPOSE 5000
+
+VOLUME New_volume
+
+CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
