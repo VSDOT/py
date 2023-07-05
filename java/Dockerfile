@@ -1,19 +1,32 @@
-FROM maven:3.5.2-jdk-8-alpine
+FROM maven as mv
 
-COPY . /usr/src/home
- 
-WORKDIR /usr/src/home
+WORKDIR /usr/src/mymaven
 
-RUN mvn package
+COPY . .  
 
-FROM maven:3.5.2-jdk-8-alpine
+RUN mvn clean package 
 
-WORKDIR /root/
+#RUN .mvn\wrapper\maven-wrapper.jar"
 
-COPY . /usr/src/home/taeget/app.war 
+###################################################
 
-EXPOSE 8080
+FROM openjdk:21-ea-8-jdk-slim-buster
 
-VOLUME /var/log/app
+WORKDIR /webapps
 
-ENTRYPOINT ["java',"war","./app.war"]
+COPY --from=mv /usr/src/mymaven/target/*.jar .
+
+RUN mv /webapps/*.jar /webapps/app.jar
+
+VOLUME mybridge
+
+EXPOSE 8080/tcp
+
+CMD ["java", "-jar",  "/webapps/app.jar"]
+#####################
+###############
+##########
+#####
+#
+
+
